@@ -5,6 +5,6 @@ def snake_it_up(string)
     10.times(p 's')
     p string
   else
-    string
+    p string
   end
 end
