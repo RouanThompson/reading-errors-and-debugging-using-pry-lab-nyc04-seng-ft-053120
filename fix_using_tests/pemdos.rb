@@ -2,7 +2,7 @@
 
 def snake_it_up(string)
   if string[0] == "s"
-    10.times { string.unshift("s") }
+    string.rjust(10, "s")
     p string
   else
     p string
